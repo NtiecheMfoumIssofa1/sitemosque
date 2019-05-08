@@ -16,10 +16,10 @@
  if(isset($_GET["montant"])){
 
   $montant=intval(htmlspecialchars(trim($_GET["montant"])));
-  $nom=isset($_GET["firstname"]);
-  $prenom=isset($_GET["lastname"]);
-  $telephone=isset($_GET["telephone"]);
-  $email=isset($_GET["email"]);
+  $nom=htmlspecialchars($_GET["firstname"]);
+  $prenom=htmlspecialchars($_GET["lastname"]);
+  $telephone=htmlspecialchars($_GET["telephone"]);
+  $email=htmlspecialchars($_GET["email"]);
  
   require_once '../monetbil.php';
 

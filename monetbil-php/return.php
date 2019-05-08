@@ -53,10 +53,10 @@
                         </div>
                     <?php elseif (Monetbil::STATUS_CANCELLED == $payment_status): ?>
                         <p>Transaction cancelled!</p>
-                        <a href="http://www.example.com/" class="btn btn-block btn-primary btn-sm m-t-20">Home page</a>
+                        <a href="http://m.etravel.cm/sitemosque/mosqueedon" class="btn btn-block btn-primary btn-sm m-t-20">Home page</a>
                     <?php else: ?>
                         <p>Payment failed!</p>
-                        <a href="http://www.example.com/" class="btn btn-block btn-primary btn-sm m-t-20">Home page</a>
+                        <a href="http://m.etravel.cm/sitemosque/mosqueedon" class="btn btn-block btn-primary btn-sm m-t-20">Home page</a>
                     <?php endif; ?>
                 </div>
             </div>
